@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');*
+{
+    font-family: 'Bree Serif', serif;
+}
+html {
+    min-width: 100%;
+}
+/************************************************************************** Navbar */
+.navbar ul {
+    list-style: none;
+    background: #000;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    border: 2px solid #C8A458;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #666666;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}  
+.navbar li {
+    display: inline-block;
+}
+.navbar a {
+    text-decoration: none;
+    color: #EFEAE0;
+    width: 100px;
+    display: block;
+    padding: 10px 15px;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.navbar a:hover {
+    text-decoration: underline;
+}
+.navbar .home {
+    color :#C8A458;
+}
+.navbar .medias {
+    color :#C8A458;
+}
+.navbar .news {
+    color :#C8A458;
+}
+/************************************************************************** Bodys */
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #255278;
+}
+body .top {
+    background-image: url(https://media.discordapp.net/attachments/1044187704310648905/1044571469641949245/desktop-2.jpg?width=2560&height=1440);
+    background-size: cover;
+    background-position: center;
+    height: 103vh ;
+    width: 100%;
+    padding-top: 60px;
+}
+body .mediastop {
+    background-image: url(https://media.discordapp.net/attachments/1044187704310648905/1045033910700097596/desktop-5.jpg?width=2560&height=1440);
+    background-size: cover;
+    background-position: center;
+    height: 103vh;
+    padding-top: 60px;
+}
+body .newstop {
+    background-image: url(https://media.discordapp.net/attachments/1044187704310648905/1045045825484623953/desktop-4.jpg?width=2560&height=1440);
+    background-size: cover;
+    height: 105vh;
+    padding-top: 60px;
+}
+/************************************************************************** Hr */
+hr {
+    margin-top: -1px;
+    width: 99.7%;
+    background: #C8A458;
+    border: 2px solid #C8A458;
+}
+footer hr {
+    width: 80%;
+    background: #fff;
+    border: 1px solid #fff;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+.underline {
+    width: 23%;
+    border-radius: 5px;
+    margin-top: -20px;
+}
+/************************************************************************** Desc */
+.desc {
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: -48px;
+    height: 280vh;
+    background:  linear-gradient(to left, rgba(0, 0, 0, 1) 2%, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0) 87%, rgba(0, 0, 0, 1) 98%), url(https://media.discordapp.net/attachments/1044187704310648905/1044574913610133555/desc.jpg);
+    background-attachment: fixed;
+} 
+.mediasdesc {
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: -48px;
+    height: 480vh;
+    background:  linear-gradient(to left, rgba(0, 0, 0, 1) 2%, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0) 87%, rgba(0, 0, 0, 1) 98%), url(https://media.discordapp.net/attachments/1044187704310648905/1044574913610133555/desc.jpg);
+    background-attachment: fixed;
+}
+.newsdesc {
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: -48px;
+    height: 320vh;
+    background:  linear-gradient(to left, rgba(0, 0, 0, 1) 2%, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0) 87%, rgba(0, 0, 0, 1) 98%), url(https://media.discordapp.net/attachments/1044187704310648905/1044574913610133555/desc.jpg);
+    background-attachment: fixed;
+}
+/************************************************************************** Text */
+.title {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #C8A458;
+    font-size: 3em;
+}
+.title1 {
+    padding-top: 0px;
+    padding-bottom: -50px;
+    text-align: center;
+    color: #C8A458;
+    font-size: 2.6em;
+}.title2 {
+    padding-top: 8px;
+    padding-bottom: -50px;
+    text-align: center;
+    color: #C8A458;
+    font-size: 2.6em;
+}
+.subtitle {
+    font-size: 2em;
+    margin-top: 170px;
+    color: #DAD8D8;
+    text-align: center;
+}
+.concept {
+    text-align: center;
+    padding-top: 20px;
+    color: #DAD8D8;
+    font-size: 1.2em;
+    display:flex;
+}
+.article {
+    color: #42736E;
+    font-size: 1.7em;
+    margin-bottom: -10px;
+    text-align: center;
+}
+.article-text {
+    width: auto;
+    color: #DAD8D8;
+    text-align: center;
+    font-size: 1.2em;
+}
+.triforce {
+    margin-top: 30px;
+    color: #DAD8D8;
+    font-size: 1em;
+    text-align: center;
+    justify-content: center;
+}
+.date {
+    color: #C8A458;
+    margin-bottom: -20px;
+}
+.view {
+    padding-top: 20px;
+    color: #DAD8D8;
+    font-size: 1.5em;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    transition: 0.5s all;
+}
+.view:hover {
+    color: #C8A458;
+    text-decoration: underline;
+}
+/************************************************************************** Video  */
+ .vid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 245px ;
+    width:   439px ;
+    border: 3px #C8A458 solid;
+}
+/************************************************************************** FlexBox  */
+.row {
+    width: 85%;
+    margin: 7%;
+}
+.column {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 3 2px;
+    width: 100%;
+} 
+.textpic {
+    width: 30%;
+}
+.textpic1 {
+    width: 20%;
+}
+.column img {
+    width: 100%;
+    border-radius: 4px;
+    border: 2px solid #C8A458;
+    box-shadow: 10px 10px 10px #000;
+    transition: 0.8s;
+}
+.column img:hover {
+    scale: 1.1;
+}  
+.column-creation {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.column-creation img {
+    width: 100%;
+    transition: 0.8s;
+}
+@media screen and (max-width: 800px) {
+    .column {
+      flex: 70%;
+      max-width: 70%;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+/************************************************************************** Contact  */
+  .container {
+    width: 350px;
+    height: 330px;
+    background: #fff;
+    padding: 10px;
+    margin: 70px auto;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+    border-bottom-right-radius: 80px;
+    border-top-left-radius: 80px;
+    border: 3px solid #C8A458;
+}
+.container form {
+    width: 260px;
+    margin: 20px 37px;
+    text-align: center;
+}
+.container h1 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+input, textarea {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    outline: none;
+    display: block;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 2px solid #C8A458;
+}
+button {
+    width: 107%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: #DAD8D8;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 7px;
+    background: #C8A458;
+}
+/************************************************************************** Socials Icons  */
+a{
+	text-decoration: none;
+	color:#000 ;
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: -20px;
+}
+.wrapper .button {
+    display: inline-block;
+    height: 60px;
+    width: 59px;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px #000;
+    transition: all 0.4s ease-out;
+}
+.wrapper .button:hover {
+    width: 200px;
+}
+.wrapper .button .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon{
+    background: #4267B2;
+}
+.wrapper .button:nth-child(2):hover .icon{
+    background: #1DA1F2;
+}
+.wrapper .button:nth-child(3):hover .icon{
+	background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+}
+.wrapper .button:nth-child(4):hover .icon{
+    background: #ff0000;
+}
+.wrapper .button .icon i{
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+.wrapper .button:hover .icon i{
+    color: #fff;
+}
+.wrapper .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1) span{
+    color: #4267B2;
+} 
+.wrapper .button:nth-child(2) span{
+    color: #1DA1F2;
+}
+.wrapper .button:nth-child(3) span{
+    color: #E1306C;
+}
+.wrapper .button:nth-child(4) span{
+    color: #ff0000;
+}
