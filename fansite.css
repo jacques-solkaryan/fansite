@@ -54,7 +54,7 @@ body {
     background: #255278;
 }
 body .top {
-    background-image: url(https://media.discordapp.net/attachments/1044187704310648905/1044571469641949245/desktop-2.jpg?width=2560&height=1440);
+    background-image: url(https://media.discordapp.net/attachments/1048227414997733508/1048230779458703440/desktop-2.jpg?width=2560&height=1440);
     background-size: cover;
     background-position: center;
     height: 103vh ;
@@ -62,14 +62,14 @@ body .top {
     padding-top: 60px;
 }
 body .mediastop {
-    background-image: url(https://media.discordapp.net/attachments/1044187704310648905/1045033910700097596/desktop-5.jpg?width=2560&height=1440);
+    background-image: url(https://media.discordapp.net/attachments/1048227414997733508/1048230779190255696/desktop-5.jpg?width=2560&height=1440);
     background-size: cover;
     background-position: center;
     height: 103vh;
     padding-top: 60px;
 }
 body .newstop {
-    background-image: url(https://media.discordapp.net/attachments/1044187704310648905/1045045825484623953/desktop-4.jpg?width=2560&height=1440);
+    background-image: url(https://media.discordapp.net/attachments/1048227414997733508/1048230779769073684/desktop-4.jpg?width=2560&height=1440);
     background-size: cover;
     height: 105vh;
     padding-top: 60px;
@@ -98,25 +98,31 @@ footer hr {
     background-size: cover;
     background-attachment: fixed;
     margin-top: -48px;
-    height: 280vh;
-    background:  linear-gradient(to left, rgba(0, 0, 0, 1) 2%, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0) 87%, rgba(0, 0, 0, 1) 98%), url(https://media.discordapp.net/attachments/1044187704310648905/1044574913610133555/desc.jpg);
+    background:  linear-gradient(to left, rgba(0, 0, 0, 1) 2%, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0) 87%, rgba(0, 0, 0, 1) 98%), url(https://media.discordapp.net/attachments/1048227414997733508/1048242766649503775/image.png?width=2560&height=1440);
     background-attachment: fixed;
+    margin-bottom: -1%;
+    width: 100%;
+    height: auto;
 } 
 .mediasdesc {
     background-size: cover;
     background-attachment: fixed;
     margin-top: -48px;
-    height: 480vh;
-    background:  linear-gradient(to left, rgba(0, 0, 0, 1) 2%, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0) 87%, rgba(0, 0, 0, 1) 98%), url(https://media.discordapp.net/attachments/1044187704310648905/1044574913610133555/desc.jpg);
+    background:  linear-gradient(to left, rgba(0, 0, 0, 1) 2%, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0) 87%, rgba(0, 0, 0, 1) 98%), url(https://media.discordapp.net/attachments/1048227414997733508/1048242766649503775/image.png?width=2560&height=1440);
     background-attachment: fixed;
+    margin-bottom: -7%;
+    width: 100%;
+    height: auto;
 }
 .newsdesc {
     background-size: cover;
     background-attachment: fixed;
     margin-top: -48px;
-    height: 320vh;
-    background:  linear-gradient(to left, rgba(0, 0, 0, 1) 2%, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0) 87%, rgba(0, 0, 0, 1) 98%), url(https://media.discordapp.net/attachments/1044187704310648905/1044574913610133555/desc.jpg);
+    background:  linear-gradient(to left, rgba(0, 0, 0, 1) 2%, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0) 87%, rgba(0, 0, 0, 1) 98%), url(https://media.discordapp.net/attachments/1048227414997733508/1048242766649503775/image.png?width=2560&height=1440);
     background-attachment: fixed;
+    margin-bottom: -7%;
+    width: 100%;
+    height: auto;
 }
 /************************************************************************** Text */
 .title {
@@ -364,4 +370,10 @@ a{
 }
 .wrapper .button:nth-child(4) span{
     color: #ff0000;
+}
+.gap {
+    padding-bottom: 70%;
+}
+.ga {
+    padding-bottom: 15%;
 }
